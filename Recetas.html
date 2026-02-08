@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Recetas - Christian Mendoza</title>
+    <link rel="stylesheet" href="Recetas.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Buscador de Recetas de Christian Eduardo Mendoza Marin</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="Recetas_Favoritos.html">Mis Favoritos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Inicio</h1>
+            <p class="subtitle">Encuentra las mejores recetas de cocina internacional</p>
+        </section>
+
+        <section class="search-section">
+            <div class="search-container">
+                <label for="categoria">Categoría</label>
+                <select id="categoria" class="select-categoria">
+                    <option value="">-- Seleccione --</option>
+                </select>
+            </div>
+        </section>
+
+        <section id="resultado" class="resultado">
+            <!-- Aquí se mostrarán las recetas -->
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+        </div>
+    </footer>
+
+    <script src="Recetas.js"></script>
+</body>
+</html>
